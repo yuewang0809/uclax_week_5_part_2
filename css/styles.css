@@ -1,0 +1,135 @@
+/*
+* Globals
+*/
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: black; }
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: black;
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff; }
+
+.btn-primary {
+  font-size: 18px;
+  color: #fff;
+  background-color: #3E8C72;
+  border-width: 1px;
+  border-color: #fff; }
+
+/*
+* Base structure
+*/
+html,
+body {
+  height: 100%;
+  background-color: #333;
+  font-family: 'Helvatica';
+  font-size: 17px;
+  background-image: url("../images/tom.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: black; }
+
+p {
+  font-family: 'Helvatica';
+  font-size: 18px;
+  text-shadow: 1px 1px 15px white; }
+
+label {
+  font-family: 'Helvaticae';
+  font-size: 20px;
+  text-shadow: 1px 1px 15px white; }
+
+input {
+  font-family: 'Helvatica';
+  font-size: 18px; }
+
+.hide {
+  display: none; }
+
+.uk {
+  background-image: url("../images/app.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.us {
+  background-image: url("../images/beach.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.jp {
+  background-image: url("../images/tom.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.cover-container {
+  max-width: 65em; }
+
+/*
+* Header
+*/
+.masthead {
+  margin-bottom: 2rem; }
+
+.masthead-brand {
+  margin-bottom: 0; }
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: #1FA88E;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent; }
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: #1FA88E; }
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem; }
+
+.nav-masthead .active {
+  color: black;
+  border-bottom-color: black; }
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left; }
+  .nav-masthead {
+    float: right; } }
+
+/*
+* Cover
+*/
+.cover {
+  padding: 0 1.5rem; }
+
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700; }
+
+/*
+* Footer
+*/
+.mastfoot {
+  color: rgba(255, 255, 255, 0.5); }
